@@ -8,7 +8,7 @@ module.exports = {
   plugins: ["stylelint-scss"],
   rules: {
     "max-nesting-depth": [
-      1,
+      2,
       {
         ignore: ["pseudo-classes"],
         ignoreAtRules: ["include"],
