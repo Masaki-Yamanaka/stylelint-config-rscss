@@ -1,6 +1,16 @@
 {
-  "name": "stylelint-config-rscss",
+  "name": "stylelint-config-myamanaka",
   "version": "1.0.0",
+  "description": "The shareable config for stylelint by myamanaka",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masaki-Yamanaka/stylelint-config-rscss"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
   "devDependencies": {
     "prettier": "^2.3.0",
     "stylelint": "^13.13.1",
@@ -15,5 +25,6 @@
     "lint:scss:fix": "stylelint --fix \"**/*.scss\"",
     "format:scss": "prettier . -c ",
     "format:scss:fix": "prettier . --write"
-  }
+  },
+  "license": "MIT"
 }
